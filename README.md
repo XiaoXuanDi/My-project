@@ -1,4 +1,4 @@
 # My-project
 Hello everybody！
 Be a real man.
-![](My-project/screenshots/screenshot.png)
+![](https://github.com/XiaoXuanDi/My-project/screenshots/screenshot.png)
