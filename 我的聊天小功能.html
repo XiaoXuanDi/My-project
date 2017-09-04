@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>我的小项目(JS)</title>
+</head>
+<link rel="stylesheet" href="./mycss.css">
+<script>
+	window.onload = function(){
+		var photo = ['./MieMie.png'];
+		var content=document.getElementsByTagName('ul')[0];
+		var text=document.getElementById('text');
+		var btn=document.getElementById('btn');
+
+		btn.onclick =function(){
+			if (text.value=='') {
+				alert('聊天内容不可为空！');
+			}else{
+				content.innerHTML+='<li><img src="'+photo[0]+'"/><span>'+text.value+'</span></li>';
+				text.value='';
+			}
+		}
+	}
+</script>
+</style>
+<body>
+	<div id="container">
+		<div class="header">
+			<span style="float: left;">超级无敌咩咩咩</span>
+			<span style="float: right;">
+				<div id="time">
+					<script language=Javascript>
+						var now=new Date();
+						document.write(1900+now.getYear()+"-"+(now.getMonth()+1)+"-"+now.getDate()+" "+now.getHours()+":"+now.getMinutes()+":"+now.getSeconds())
+					</script>
+				</div>
+			</span>
+		</div>
+		<ul class="content"></ul>
+		<div class="footer">
+			<div id="icon">
+				<img src="./MieMie.png" alt="我的头像">
+			</div>
+			<input id="text" type="text" placeholder="请输入聊天内容..">
+			<span id="btn">发送</span>
+		</div>
+
+	</div>
+</body>
+</html>

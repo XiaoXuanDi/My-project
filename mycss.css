@@ -1,0 +1,95 @@
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        font-family: '微软雅黑'
+    }
+    #container{
+        width: 450px;
+        height: 780px;
+        background:white;
+        margin: 80px auto 0;
+        position: relative;
+        box-shadow:20px 20px 55px #777;
+    }
+    .header{
+        background: #F6ABC5;
+        height: 34px;
+        color: #fff;
+        line-height: 34px;
+        font-size: 20px;
+        padding: 0 15px;
+    }
+    .footer{
+        width: 430px;
+        height: 40px;
+        background: #F6ABC5;
+        position: absolute;
+        bottom: 0;
+        padding: 10px;
+    }
+    .footer input{
+        width: 275px;
+        height: 35px;
+        font-size: 22px;
+        text-indent: 10px;
+        position: absolute;
+        border-radius: 6px;
+        border:1px solid white;
+        right: 80px;
+    }
+    .footer span{
+        display:inline-block;
+        width: 62px;
+        height: 38px;
+        background: white;
+        font-size: 18px;
+        font-weight: 600;
+        color: #F6ABC5;
+        cursor: pointer;
+        border-radius: 6px;
+        position: absolute;
+        line-height: 38px;
+        text-align: center;
+        right: 10px;
+    }
+    .footer span:hover{
+        color: #808384;
+        background: #A6E6F9;
+    }
+    #icon{
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        background: white;
+        margin-left: 15px;
+        cursor: pointer;
+    }
+    .content{
+        width: 435px;
+        height: 662px;
+        overflow: auto;
+        padding: 5px;
+        font-size: 20px;
+    }
+    .content li{
+        margin-top: 10px;
+        padding-left: 10px;
+        display: block;
+        clear: both;
+        word-break:break-all;
+        overflow: hidden;
+    }
+    .content li img{
+        float: right;
+    }
+    .content li span{
+        max-width:333px;
+        background: #F6ABC5;
+        padding: 7px;
+        margin-right:7px;
+        float: right;
+        border-radius: 7px;
+    } 
+    </style>
